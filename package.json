@@ -1,7 +1,7 @@
 {
   "name": "map-utility-functions",
   "version": "0.0.1",
-  "description": "A utility function library for working with ES6 map objects.",
+  "description": "A utility function library for working with ES2015 map objects.",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
