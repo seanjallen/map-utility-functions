@@ -13,8 +13,7 @@ const value4 = 8;
 const map = new Map([[key1, value1], [key2, value2], [key3, value3], [key4, value4]]);
 
 const callback = jest.fn().mockImplementation((accumulator, value, key) => accumulator + value + key);
-let sum;
-beforeAll(() => sum = reduce(map, callback, 0));
+const sum = reduce(map, callback, 0);
 
 test('reduces key/value pairs as expected for a basic sum callback', () => {
   expect(sum).toBe(key1 + key2 + key3 + key4 + value1 + value2 + value3 + value4);
