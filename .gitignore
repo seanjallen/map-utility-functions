@@ -60,3 +60,6 @@ typings/
 # Webstorm project files
 .idea
 
+# Dist build created by babel
+dist
+

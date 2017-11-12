@@ -1,0 +1,40 @@
+{
+  "name": "map-utility-functions",
+  "version": "0.0.1",
+  "description": "A utility function library for working with ES6 map objects.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run test && npm run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanjallen/map-utility-functions.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "javascript",
+    "es6",
+    "map",
+    "reduce",
+    "assign",
+    "some",
+    "every",
+    "filter"
+  ],
+  "author": "Sean Allen",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/seanjallen/map-utility-functions/issues"
+  },
+  "homepage": "https://github.com/seanjallen/map-utility-functions#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1"
+  }
+}
